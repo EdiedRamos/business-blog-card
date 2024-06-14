@@ -10,27 +10,34 @@
   </head>
   <body>
     <section>
-      <article>
-        <div>
+      <article class="card">
+        <div class="card__image">
           <img
             src="./assets/hero-image-business-card.png"
             alt="business photo"
           />
-          <img src="./assets/white-overlay.svg" alt="overlay" />
-        </div>
-        <h1>Perfect solution for small business</h1>
-        <p>
-          Small businesses need to generate leads to grow. You can use tools
-          like Ringy.
-        </p>
-        <div>
           <img
+            class="card__overlay"
+            src="./assets/white-overlay.svg"
+            alt="overlay"
+          />
+        </div>
+        <div class="card__main">
+          <h1 class="card__title">Perfect solution for small business</h1>
+          <p class="card__text">
+            Small businesses need to generate leads to grow. You can use tools
+            like Ringy.
+          </p>
+        </div>
+        <div class="card__footer">
+          <img
+            class="user__profile"
             src="./assets/avatar-image-business-card.png"
             alt="user profile icon"
           />
           <div>
-            <p>Amy Burgess</p>
-            <span>Customer Manger, Solution Oy</span>
+            <h2 class="user__name">Amy Burgess</h2>
+            <span class="user__role">Customer Manger, Solution Oy</span>
           </div>
         </div>
       </article>

@@ -17,5 +17,77 @@
 }
 
 body {
+  background-color: var(--light-gray);
   font-family: "Lato", sans-serif;
+}
+
+.card {
+  margin: 0 auto;
+  margin-top: 124px;
+  margin-bottom: 50px;
+  border-radius: 12px;
+  background-color: var(--white);
+  width: 420px;
+}
+
+.card__image {
+  position: relative;
+  border-radius: inherit;
+  height: 280px;
+
+  /* overflow: hidden; */
+  img {
+    border-radius: inherit;
+    width: 100%;
+  }
+}
+
+.card__overlay {
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+}
+
+.card__title {
+  color: var(--dark);
+  font-size: var(--fs-200);
+}
+
+.card__text {
+  margin-top: 12px;
+  color: var(--gray);
+  font-size: var(--fs-100);
+}
+
+.card__info {
+  padding: 0 32px 24px 32px;
+}
+
+.card__main {
+  padding: 0 32px 24px;
+}
+
+.card__footer {
+  display: flex;
+  gap: 12px;
+  border-top: 1px solid var(--light-gray);
+  border-bottom-right-radius: inherit;
+  border-bottom-left-radius: inherit;
+  padding: 24px 32px;
+}
+
+.user__profile {
+  border: 4px solid var(--light-gray);
+  border-radius: 50%;
+  width: 45px;
+}
+
+.user__name {
+  color: var(--dark);
+  font-size: var(--fs-100);
+}
+
+.user__role {
+  color: var(--gray);
+  font-size: 12px;
 }
