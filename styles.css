@@ -39,6 +39,7 @@ body {
   img {
     border-radius: inherit;
     width: 100%;
+    object-fit: cover;
   }
 }
 
@@ -49,12 +50,13 @@ body {
 }
 
 .card__title {
+  margin-top: 4px;
   color: var(--dark);
   font-size: var(--fs-200);
 }
 
 .card__text {
-  margin-top: 12px;
+  margin-top: 20px;
   color: var(--gray);
   font-size: var(--fs-100);
 }
