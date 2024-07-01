@@ -35,7 +35,7 @@ body {
   border-radius: inherit;
   height: 280px;
 
-  /* overflow: hidden; */
+  overflow: hidden;
   img {
     border-radius: inherit;
     width: 100%;
